@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+html, body, #root { height: 100%; }
+body { @apply bg-[#0b0b12] antialiased text-white; }
+
+/* Smooth scroll and selection */
+html { scroll-behavior: smooth; }
+
+/* Nice focus ring */
+:focus-visible { outline: 2px dashed rgba(236,72,153,0.6); outline-offset: 2px; border-radius: 6px; }
